@@ -81,3 +81,10 @@ ios-dark-mode:
   mini-media-player-base-color: white
   mini-media-player-icon-color: white
   # mini-media-player-artwork-opacity: 0.7  # causing some bug
+  #start additional lines as from HA Core 2022.3.0
+  mdc-text-field-fill-color: var(--card-background-color)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-fill-color: var(--card-background-color)
+  #end additional lines as from HA Core 2022.3
+  
